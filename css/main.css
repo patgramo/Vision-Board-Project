@@ -1,0 +1,65 @@
+body {
+    background: #E8E8E8;
+}
+
+#vision-board {
+    width: 1200px;
+    height: 850px;
+    background: url('../img/background.png');
+    overflow: auto;
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    margin: 50px auto;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.block {
+    float: left;
+    width: 400px;
+    box-sizing: border-box;
+}
+
+.small-block {
+    height: 210px;
+    padding: 40px 30px;
+}
+
+.large-block {
+    height: 430px;
+    padding: 50px 30px;
+}
+
+.center {
+    text-align: center;
+}
+
+.right {
+    text-align: right;
+}
+
+.light-bg {
+	background: #ffffff;
+}
+
+.dark-bg{
+    background: #3B3B3B;
+    color: #ffffff;
+    font-size: 30px;
+}
+.title{
+    font-family: 'permanent marker', cursive;
+    margin: 10px 0;
+
+}
+.highlight{
+	background: yellow;
+    padding: 5px 15px;
+    font-size: 18px;
+}
+.large-font{
+    font-size: 38px;
+    text-transform: none;
+    line-height: 38px;
+}
